@@ -1,0 +1,14 @@
+footer{
+    border: solid 2px green($color: #000000);
+    height: 30vh;
+}
+
+.boxSocial{
+    background-color:rgba(0, 86, 149, 1);
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px red;
+    
+}
