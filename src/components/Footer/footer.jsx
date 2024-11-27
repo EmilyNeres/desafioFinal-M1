@@ -12,15 +12,15 @@ export default function footer(){
         <footer>
             <section className={S.boxSocial}>
                 <h3>4002-8922</h3>
-                <div>
+                <nav>
                     <a href=""><img src={facebook} alt="Logo do facebook" /></a>
                     <a href=""><img src={twitter} alt="logo do twitter" /></a>
                     <a href=""><img src={youtube} alt="logo do youtube" /></a>
                     <a href=""><img src={linkedin} alt="Logo dolinkedin" /></a>
                     <a href=""><img src={instagram} alt="logo do instagram" /></a>
-                </div>
+                </nav>
             </section>
-            <section>
+            <section className={S.boxTexto}>
                 <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
             </section>
         </footer>
