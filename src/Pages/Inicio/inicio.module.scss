@@ -8,6 +8,7 @@
     height: 75vh;
     color: white;
     h2{
+        // border: solid 2px red;
         width: 27vw;
         margin-left: 130px;
         font-size: 40px;
@@ -48,6 +49,70 @@
             text-align: center;
         }
         
+    }
+}
+
+@media (max-width:110px) {
+    .boxCard{
+    article{
+        p{
+            font-size: 1.5vw;
+        }
+    }
+}
+    
+}
+
+@media (max-width:760px) {
+    .post{
+        background-position:center ;
+        justify-content: center;
+        h2{
+            // border: solid 2px red;
+            width: 70%;
+            text-align: center;
+            font-size: 28px;
+            margin-left: 0;// para tirar o left atribuído a cima
+        }
+    }
+
+    .devoDoar{
+        // border: solid 2px green;
+        height: 120vh;
+        div{
+            // border: solid 2px red;
+            justify-content: center;
+            h2{
+                margin-left: 0;
+            }
+        }
+        
+    }
+
+    .boxCard{
+        // border: solid 2px red;
+        height: 100vh;
+        flex-wrap:wrap;
+        gap: 20px;
+        article{
+            width: 200px;
+            height: 250px;
+           p{
+            font-size: 14px;
+           }
+        }
+    }
+}
+
+@media(max-width:427px){
+    .devoDoar{
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .boxCard{
+        height: auto;
     }
 }
 

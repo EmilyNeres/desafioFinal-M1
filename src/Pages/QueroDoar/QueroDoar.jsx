@@ -6,7 +6,7 @@ export default function QueroDoar(){
         <section className={S.boxPrincipal}>
             <section className={S.container}>
             <h2>Por favor, preencha o formulário com suas informações e as informações do Livro</h2>
-            <form action="">
+            <form >
                 <div>
                     <img src={book} alt="icone de um livro aberto" />
                     <h3>Informações do Livro</h3>
@@ -23,3 +23,4 @@ export default function QueroDoar(){
         </section>
     )
 }
+
